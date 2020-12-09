@@ -1,0 +1,53 @@
+test/MainTest.java:18: error: cannot find symbol
+if(MyInterpreter.interpret(test1)!=rand*5-(8+2))
+^
+symbol: method interpret(String[])
+location: class MyInterpreter
+test/MainTest.java:28: error: cannot find symbol
+if(MyInterpreter.interpret(test2)!=rand+3)
+^
+symbol: method interpret(String[])
+location: class MyInterpreter
+test/MainTest.java:56: error: cannot find symbol
+if(MyInterpreter.interpret(test4)!=sim.simX+sim.simY*sim.simZ)
+^
+symbol: method interpret(String[])
+location: class MyInterpreter
+test/MainTest.java:69: error: cannot find symbol
+if(MyInterpreter.interpret(test5)!=rand+2*5)
+^
+symbol: method interpret(String[])
+location: class MyInterpreter
+test/MainTrain.java:18: error: cannot find symbol
+if(MyInterpreter.interpret(test1)!=rand*5-(8+2))
+^
+symbol: method interpret(String[])
+location: class MyInterpreter
+test/MainTrain.java:28: error: cannot find symbol
+if(MyInterpreter.interpret(test2)!=rand+3)
+^
+symbol: method interpret(String[])
+location: class MyInterpreter
+test/MainTrain.java:57: error: cannot find symbol
+if(MyInterpreter.interpret(test4)!=sim.simX+sim.simY*sim.simZ)
+^
+symbol: method interpret(String[])
+location: class MyInterpreter
+test/MainTrain.java:70: error: cannot find symbol
+if(MyInterpreter.interpret(test5)!=rand+2*5)
+^
+symbol: method interpret(String[])
+location: class MyInterpreter
+8 errors
+
+
+:שגיאות ריצה
+
+
+java.net.SocketTimeoutException: Accept timed out
+at java.net.PlainSocketImpl.socketAccept(Native Method)
+at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409)
+at java.net.ServerSocket.implAccept(ServerSocket.java:560)
+at java.net.ServerSocket.accept(ServerSocket.java:528)
+at command.OpenDataServerCommand.runServer(OpenDataServerCommand.java:47)
+at command.OpenDataServerCommand.lambda$0(OpenDataServerCommand.ja

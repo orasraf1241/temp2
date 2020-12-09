@@ -6,7 +6,7 @@ public class MyInterpreter {
 
 	public static int interpreter(String[] lines){
 		
-		Interpreter interpeter = new Interpreter();
-		return (int)interpeter.interpret(lines);
+		Interpreter interpreter = new Interpreter();
+		return (int)interpreter.interpreter(lines);
 	}
 }

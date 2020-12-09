@@ -74,7 +74,7 @@ public class Interpreter {
 		return this.indexBlockOfTokens;
 	}
 
-	public double interpret(String[] codeLines) {
+	public double interpreter(String[] codeLines) {
 		resetInterpeter();
 		lexer(codeLines);
 		parser();
